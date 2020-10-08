@@ -22,7 +22,7 @@ enemyAnimation = loadAnimation("Game/Enemy/EnemyBasicAttack1-0 (1).png","Game/En
 
 
 function setup() {
-  createCanvas(displayWidth,displayHeight-143);
+  createCanvas(windowWidth,windowHeight-143);
 
   block = createSprite(180,539,10,900);
   block.visible = false;
